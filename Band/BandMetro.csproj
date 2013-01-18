@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34200FE4-5238-49DA-9CB0-2000D54AB7BB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Band</RootNamespace>
+    <AssemblyName>Band</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+    </PublishDatabaseSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootmetro-charms.css" />
+    <Content Include="css\bootmetro-tiles.css" />
+    <Content Include="css\bootmetro.css" />
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\datepicker.css" />
+    <Content Include="css\icomoon.css" />
+    <Content Include="css\metro-ui-dark.css" />
+    <Content Include="css\metro-ui-light.css" />
+    <Content Include="default.aspx" />
+    <Content Include="errorpage.aspx" />
+    <Content Include="font\IcoMoon.svg" />
+    <Content Include="font\icomoon97172\IcoMoon.svg" />
+    <Content Include="font\icomoon97172\index.html" />
+    <Content Include="font\icomoon97172\license.txt" />
+    <Content Include="font\icomoon97172\style.css" />
+    <Content Include="font\LICENSE.txt" />
+    <Content Include="font\opensans-bold-webfont.svg" />
+    <Content Include="font\opensans-light-webfont.svg" />
+    <Content Include="font\opensans-regular-webfont.svg" />
+    <Content Include="font\opensans-semibold-webfont.svg" />
+    <Content Include="hub.html" />
+    <Content Include="img\addsong.png" />
+    <Content Include="img\appbar.png" />
+    <Content Include="img\avatar-movie-puzzles-2.jpg" />
+    <Content Include="img\bootstrap-mdo-sfmoma-01.jpg" />
+    <Content Include="img\bootstrap-mdo-sfmoma-02.jpg" />
+    <Content Include="img\bootstrap-mdo-sfmoma-03.jpg" />
+    <Content Include="img\bs-docs-masthead-pattern.png" />
+    <Content Include="img\bs-docs-responsive-illustrations.png" />
+    <Content Include="img\bs-docs-twitter-github.png" />
+    <Content Include="img\Coding app.png" />
+    <Content Include="img\detail-appbar-1.png" />
+    <Content Include="img\detail-appbar-2.png" />
+    <Content Include="img\detail-charms.png" />
+    <Content Include="img\detail-headermenu.png" />
+    <Content Include="img\detail-hub.png" />
+    <Content Include="img\detail-icons.png" />
+    <Content Include="img\detail-themes.png" />
+    <Content Include="img\Devices.png" />
+    <Content Include="img\examples\bootstrap-example-carousel.png" />
+    <Content Include="img\examples\bootstrap-example-fluid.jpg" />
+    <Content Include="img\examples\bootstrap-example-hero.jpg" />
+    <Content Include="img\examples\bootstrap-example-marketing-narrow.png" />
+    <Content Include="img\examples\bootstrap-example-signin.png" />
+    <Content Include="img\examples\bootstrap-example-starter.jpg" />
+    <Content Include="img\examples\bootstrap-example-sticky-footer.png" />
+    <Content Include="img\examples\browser-icon-chrome.png" />
+    <Content Include="img\examples\browser-icon-firefox.png" />
+    <Content Include="img\examples\browser-icon-safari.png" />
+    <Content Include="img\examples\slide-01.jpg" />
+    <Content Include="img\examples\slide-02.jpg" />
+    <Content Include="img\examples\slide-03.jpg" />
+    <Content Include="img\github-icons.png" />
+    <Content Include="img\github.gif" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\grid-baseline-20px.png" />
+    <Content Include="img\h2.png" />
+    <Content Include="img\headset.png" />
+    <Content Include="img\hero-small.png" />
+    <Content Include="img\hero.png" />
+    <Content Include="img\hero2.png" />
+    <Content Include="img\hero3-black.png" />
+    <Content Include="img\hero3.png" />
+    <Content Include="img\hero4.png" />
+    <Content Include="img\less-css-logo.png" />
+    <Content Include="img\less-logo-large.png" />
+    <Content Include="img\metro-tiles-wide.jpg" />
+    <Content Include="img\metro-tiles-widepeek.png" />
+    <Content Include="img\metro-tiles.jpg" />
+    <Content Include="img\My Apps.png" />
+    <Content Include="img\Octocat-96x96.png" />
+    <Content Include="img\octocat.png" />
+    <Content Include="img\progress-indeterminate-dark.gif" />
+    <Content Include="img\progress-indeterminate-light.gif" />
+    <Content Include="img\progress-indeterminate-ring-dark-small.gif" />
+    <Content Include="img\progress-indeterminate-ring-dark.gif" />
+    <Content Include="img\progress-indeterminate-ring-light-small.gif" />
+    <Content Include="img\progress-indeterminate-ring-light.gif" />
+    <Content Include="img\RegEdit.png" />
+    <Content Include="img\sample1.png" />
+    <Content Include="img\sample2.png" />
+    <Content Include="img\sample3.png" />
+    <Content Include="img\sample4.png" />
+    <Content Include="img\sample5.png" />
+    <Content Include="img\slide1.png" />
+    <Content Include="img\slider2.png" />
+    <Content Include="img\tile-wide-collection-1.jpg" />
+    <Content Include="img\tile-wide-collection-2.png" />
+    <Content Include="img\tile-wide-collection-3.gif" />
+    <Content Include="img\tile-wide-collection-4.png" />
+    <Content Include="img\tile-wide.jpg" />
+    <Content Include="img\tile.png" />
+    <Content Include="img\vote.png" />
+    <Content Include="img\Windows 8.png" />
+    <Content Include="img\Windows alt.png" />
+    <Content Include="img\Windows Store.png" />
+    <Content Include="img\windows-8-fish.jpg" />
+    <Content Include="img\Windows.png" />
+    <Content Include="img\windows_8_logo.png" />
+    <Content Include="scripts\bootmetro-charms.js" />
+    <Content Include="scripts\bootmetro.js" />
+    <Content Include="scripts\bootstrap-datepicker.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\demo.js" />
+    <Content Include="scripts\google-code-prettify\prettify.css" />
+    <Content Include="scripts\google-code-prettify\prettify.js" />
+    <Content Include="scripts\holder.js" />
+    <Content Include="scripts\jquery-1.7.2.js" />
+    <Content Include="scripts\jquery-1.7.2.min.js" />
+    <Content Include="scripts\jquery-1.8.2.js" />
+    <Content Include="scripts\jquery-1.8.2.min.js" />
+    <Content Include="scripts\jquery.blockUI.js" />
+    <Content Include="scripts\jquery.form.js" />
+    <Content Include="scripts\jquery.mousewheel.js" />
+    <Content Include="scripts\jquery.scrollTo.js" />
+    <Content Include="scripts\jquery.validate.js" />
+    <Content Include="scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="scripts\modernizr-2.6.1.min.js" />
+    <Content Include="scripts\mustache.js" />
+    <Content Include="songlistajax.aspx" />
+    <Content Include="errorpage.htm" />
+    <Content Include="tableinfo.aspx" />
+    <Content Include="settings.aspx" />
+    <Content Include="shortsonglist.aspx" />
+    <Content Include="vote.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="addsong.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="songlist.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorpage.aspx.cs">
+      <DependentUpon>errorpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="errorpage.aspx.designer.cs">
+      <DependentUpon>errorpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songlistajax.aspx.cs">
+      <DependentUpon>songlistajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songlistajax.aspx.designer.cs">
+      <DependentUpon>songlistajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tableinfo.aspx.cs">
+      <DependentUpon>tableinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tableinfo.aspx.designer.cs">
+      <DependentUpon>tableinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="settings.aspx.cs">
+      <DependentUpon>settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="settings.aspx.designer.cs">
+      <DependentUpon>settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shortsonglist.aspx.cs">
+      <DependentUpon>shortsonglist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shortsonglist.aspx.designer.cs">
+      <DependentUpon>shortsonglist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vote.aspx.cs">
+      <DependentUpon>vote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vote.aspx.designer.cs">
+      <DependentUpon>vote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="General.cs" />
+    <Compile Include="addsong.aspx.cs">
+      <DependentUpon>addsong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addsong.aspx.designer.cs">
+      <DependentUpon>addsong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songlist.aspx.cs">
+      <DependentUpon>songlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songlist.aspx.designer.cs">
+      <DependentUpon>songlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="font\IcoMoon.eot" />
+    <None Include="font\IcoMoon.ttf" />
+    <None Include="font\IcoMoon.woff" />
+    <None Include="font\icomoon97172\IcoMoon.eot" />
+    <None Include="font\icomoon97172\IcoMoon.ttf" />
+    <None Include="font\icomoon97172\IcoMoon.woff" />
+    <None Include="font\opensans-bold-webfont.eot" />
+    <None Include="font\opensans-bold-webfont.ttf" />
+    <None Include="font\opensans-bold-webfont.woff" />
+    <None Include="font\opensans-light-webfont.eot" />
+    <None Include="font\opensans-light-webfont.ttf" />
+    <None Include="font\opensans-light-webfont.woff" />
+    <None Include="font\opensans-regular-webfont.eot" />
+    <None Include="font\opensans-regular-webfont.ttf" />
+    <None Include="font\opensans-regular-webfont.woff" />
+    <None Include="font\opensans-semibold-webfont.eot" />
+    <None Include="font\opensans-semibold-webfont.ttf" />
+    <None Include="font\opensans-semibold-webfont.woff" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55456</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
